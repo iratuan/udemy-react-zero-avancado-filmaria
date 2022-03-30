@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+}
+
+.detalhe-filme {
+  margin: 15px;
+}
+
+.detalhe-filme article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.detalhe-filme article .detalhe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.detalhe-filme article .detalhe img {
+  width: 350px;
+  border-radius: 5px;
+}
+
+.detalhe-filme article .detalhe .resumo {
+  padding-left: 20px;
+  flex-grow: 2;
+  line-height: 1.65em;
+  font-size: 1em;
+}
+.detalhe-filme article .detalhe .resumo .acoes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+}
+
+.detalhe-filme article .detalhe .resumo .acoes button {
+  box-sizing: border-box;
+  flex: 1 0 50%;
+  background-color: #27ae60;
+  color: #fff;
+  font-size: 0.85em;
+  font-weight: bold;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin: 5px;
+  transition: all 0.5s;
+  border: none;
+}
+
+.detalhe-filme article .detalhe .resumo .acoes button:hover {
+  background-color: #16a085;
+}
+.detalhe-filme article .detalhe .resumo .acoes button svg {
+  padding-right: 5px;
+  padding-top: 5px;
+}
